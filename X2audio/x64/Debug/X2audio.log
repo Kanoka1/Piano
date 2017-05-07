@@ -1,0 +1,8 @@
+﻿  X2audio.cpp
+c:\users\marina\documents\visual studio 2015\projects\piano\x2audio\x2audio.cpp(9): warning C4603: 'WIN32_LEAN_AND_MEAN': macro is not defined or definition is different after precompiled header use
+  c:\users\marina\documents\visual studio 2015\projects\piano\x2audio\x2audio.cpp(9): note: Add macro to precompiled header instead of defining here
+  c:\users\marina\documents\visual studio 2015\projects\piano\x2audio\x2audio.cpp(14): note: use of precompiled header
+c:\users\marina\documents\visual studio 2015\projects\piano\x2audio\x2audio.cpp(92): warning C4101: 'strFilePath': unreferenced local variable
+c:\users\marina\documents\visual studio 2015\projects\piano\x2audio\x2audio.cpp(109): warning C4715: 'PlayWave': not all control paths return a value
+  X2audio.vcxproj -> C:\Users\marina\Documents\Visual Studio 2015\Projects\Piano\x64\Debug\X2audio.exe
+  X2audio.vcxproj -> C:\Users\marina\Documents\Visual Studio 2015\Projects\Piano\x64\Debug\X2audio.pdb (Full PDB)

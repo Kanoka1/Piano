@@ -1,0 +1,12 @@
+constexpr float NoteC = 261.63f;
+constexpr float NoteCb = 277.18;
+constexpr float NoteD = 293.66f;
+constexpr float NoteDb = 311.13f;
+constexpr float NoteE = 329.63f;
+constexpr float NoteF = 349.23f;
+constexpr float NoteFb = 369.99f;
+constexpr float NoteG = 392.00f;
+constexpr float NoteGb = 415.30f;
+constexpr float NoteA = 440.00f;
+constexpr float NoteAb = 466.16f;
+constexpr float NoteB = 493.88f;
