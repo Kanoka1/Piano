@@ -7,18 +7,18 @@ Piano::Piano(QWidget *parent)
 {
 	ui.setupUi(this);
 
-	connect(ui.NoteC, &QPushButton::clicked, [this] { setText(FrequencyNoteC); });
-	connect(ui.NoteCb, &QPushButton::clicked, [this] { setText(FrequencyNoteCb); });
-	connect(ui.NoteD, &QPushButton::clicked, [this] { setText(FrequencyNoteD); });
-	connect(ui.NoteDb, &QPushButton::clicked, [this] { setText(FrequencyNoteDb); });
-	connect(ui.NoteE, &QPushButton::clicked, [this] { setText(FrequencyNoteE); });
-	connect(ui.NoteF, &QPushButton::clicked, [this] { setText(FrequencyNoteF); });
-	connect(ui.NoteFb, &QPushButton::clicked, [this] { setText(FrequencyNoteFb); });
-	connect(ui.NoteG, &QPushButton::clicked, [this] { setText(FrequencyNoteG); });
-	connect(ui.NoteGb, &QPushButton::clicked, [this] { setText(FrequencyNoteGb); });
-	connect(ui.NoteA, &QPushButton::clicked, [this] { setText(FrequencyNoteA); });
-	connect(ui.NoteAb, &QPushButton::clicked, [this] { setText(FrequencyNoteAb); });
-	connect(ui.NoteB, &QPushButton::clicked, [this] { setText(FrequencyNoteB); });
+	connect(ui.NoteC, &QPushButton::clicked, [this] { setText(0); });
+	connect(ui.NoteCb, &QPushButton::clicked, [this] { setText(1); });
+	connect(ui.NoteD, &QPushButton::clicked, [this] { setText(2); });
+	connect(ui.NoteDb, &QPushButton::clicked, [this] { setText(3); });
+	connect(ui.NoteE, &QPushButton::clicked, [this] { setText(4); });
+	connect(ui.NoteF, &QPushButton::clicked, [this] { setText(5); });
+	connect(ui.NoteFb, &QPushButton::clicked, [this] { setText(6); });
+	connect(ui.NoteG, &QPushButton::clicked, [this] { setText(7); });
+	connect(ui.NoteGb, &QPushButton::clicked, [this] { setText(8); });
+	connect(ui.NoteA, &QPushButton::clicked, [this] { setText(9); });
+	connect(ui.NoteAb, &QPushButton::clicked, [this] { setText(10); });
+	connect(ui.NoteB, &QPushButton::clicked, [this] { setText(11); });
 }
 
 Piano::~Piano()
@@ -26,12 +26,7 @@ Piano::~Piano()
 
 }
 
-void Piano::setText(float param)
+void Piano::setText(int param)
 {
-	new SoundPlayer(param);
-}
-
-void Piano::setText(const char * text)
-{
-	ui.label->setText(QApplication::translate("PianoClass", "sd", 0));
+	m_soundPlayer.PlaySoundW(param);
 }

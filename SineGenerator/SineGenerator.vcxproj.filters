@@ -30,12 +30,18 @@
     <ClInclude Include="SoundPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SoundCallbackHander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCallbackHander.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

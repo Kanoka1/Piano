@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  moc_piano.cpp
+  main.cpp
   piano.cpp
   Generating Code...
   Piano.vcxproj -> C:\Users\marina\Documents\Visual Studio 2015\Projects\Piano\x64\Debug\Piano.exe
