@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Piano", "Piano\Piano.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SineGenerator", "SineGenerator\SineGenerator.vcxproj", "{FE33C783-7011-492D-BE1C-2C8BB9B7407B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoundPlayer", "SineGenerator\SineGenerator.vcxproj", "{FE33C783-7011-492D-BE1C-2C8BB9B7407B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QmlPiano", "QmlPiano\QmlPiano.vcxproj", "{22D15497-A8DF-4A8D-9740-33545CC742DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{FE33C783-7011-492D-BE1C-2C8BB9B7407B}.Release|x64.Build.0 = Release|x64
 		{FE33C783-7011-492D-BE1C-2C8BB9B7407B}.Release|x86.ActiveCfg = Release|Win32
 		{FE33C783-7011-492D-BE1C-2C8BB9B7407B}.Release|x86.Build.0 = Release|Win32
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Debug|x64.ActiveCfg = Debug|x64
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Debug|x64.Build.0 = Debug|x64
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Debug|x86.Build.0 = Debug|Win32
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Release|x64.ActiveCfg = Release|x64
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Release|x64.Build.0 = Release|x64
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Release|x86.ActiveCfg = Release|Win32
+		{22D15497-A8DF-4A8D-9740-33545CC742DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

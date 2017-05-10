@@ -19,6 +19,8 @@ Piano::Piano(QWidget *parent)
 	connect(ui.NoteA, &QPushButton::clicked, [this] { setText(9); });
 	connect(ui.NoteAb, &QPushButton::clicked, [this] { setText(10); });
 	connect(ui.NoteB, &QPushButton::clicked, [this] { setText(11); });
+
+	m_soundPlayer = SoundPlayer();
 }
 
 Piano::~Piano()

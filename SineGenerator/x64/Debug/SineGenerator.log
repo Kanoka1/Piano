@@ -1,11 +1,13 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (SineGenerator.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   SoundCallbackHander.cpp
+c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
   Generating Code...
   Compiling...
   SoundPlayer.cpp
 c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.cpp(1): warning C4603: 'WIN32_LEAN_AND_MEAN': macro is not defined or definition is different after precompiled header use
   c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.cpp(1): note: Add macro to precompiled header instead of defining here
   c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.cpp(4): note: use of precompiled header
+c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.h(19): warning C4305: 'initializing': truncation from 'double' to 'float'
 c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.cpp(15): warning C4101: 'hr': unreferenced local variable
 c:\users\marina\documents\visual studio 2015\projects\piano\sinegenerator\soundplayer.cpp(93): warning C4305: 'initializing': truncation from 'double' to 'float'
   Generating Code...

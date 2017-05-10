@@ -7,18 +7,18 @@
 
 #define VOICE_BUFFER_SAMPLE_COUNT (44100)
 
-constexpr float FrequencyNoteC  = 261.63f; 
-constexpr float FrequencyNoteCb = 277.18f;
-constexpr float FrequencyNoteD = 293.66f;
-constexpr float FrequencyNoteDb = 311.13f;
-constexpr float FrequencyNoteE = 329.63f;
-constexpr float FrequencyNoteF = 349.23f;
-constexpr float FrequencyNoteFb = 369.99f;
+constexpr float FrequencyNoteC = 261.63f; 
+constexpr float FrequencyNoteCb = 277.00;// 277.18f;
+constexpr float FrequencyNoteD = 294.00;// 293.66f;
+constexpr float FrequencyNoteDb = 311.00;// 311.13f;
+constexpr float FrequencyNoteE = 330.00;//329.63f;
+constexpr float FrequencyNoteF = 349.00;// 349.23f;
+constexpr float FrequencyNoteFb = 370.00;// 369.99f;
 constexpr float FrequencyNoteG = 392.00f;
-constexpr float FrequencyNoteGb = 415.30f;
-constexpr float FrequencyNoteA = 440.00f;
-constexpr float FrequencyNoteAb = 466.16f;
-constexpr float FrequencyNoteB = 493.88f;
+constexpr float FrequencyNoteGb = 415.00;// 415.30f;
+constexpr float FrequencyNoteA = 440.11;// 440.00f;
+constexpr float FrequencyNoteAb = 466.00;// 466.16f;
+constexpr float FrequencyNoteB = 494.00;// 493.88f;
 
 class SoundPlayer sealed
 {

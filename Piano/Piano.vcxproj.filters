@@ -41,14 +41,14 @@
     <ClCompile Include="piano.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_piano.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_piano.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_piano.cpp">
       <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_piano.cpp">
-      <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,5 +66,10 @@
     <ClInclude Include="GeneratedFiles\ui_piano.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PianoKey.qml">
+      <Filter>Form Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
